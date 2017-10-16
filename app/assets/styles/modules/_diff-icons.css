@@ -1,0 +1,31 @@
+.diff-icons {
+float: left;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  @mixin atSmall {
+     padding-top: 10px;
+  }
+  &__inner {
+
+    display: inline-block;
+
+    ._icon {
+
+      display: inline-block;
+    }
+
+    &__desc {
+      text-align: center;
+      font-size: 12px;
+      max-width: 220px;
+
+      @mixin atSmall {
+        font-size: 15px;
+
+
+      }
+    }
+
+  }
+}

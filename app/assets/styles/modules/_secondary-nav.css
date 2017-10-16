@@ -1,0 +1,72 @@
+.secondary-menu {
+  background-color: white;
+}
+
+
+.secondary-nav {
+  width: 100%;
+  text-align: center;
+  display: none;
+  position: relative;
+  border-bottom: 1px solid #DDDDDD;
+
+
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    @mixin clearfix;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+
+
+    @mixin atMedium {
+      margin: 0 8px;
+    }
+
+  }
+
+
+  a {
+    position: relative;
+    color: #240F6E;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    padding: 16px 8px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+
+    @mixin clearfix;
+
+    @mixin atMedium {
+      background-color: transparent;
+      margin-bottom: 0;
+      margin-right: -4px;
+    }
+
+    &:hover {
+      border-bottom: 3px solid #503F8B;
+    }
+  }
+
+
+
+
+  @mixin atMedium {
+  display: block;
+
+  }
+
+
+}
+

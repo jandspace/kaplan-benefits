@@ -1,0 +1,61 @@
+.go-further {
+  width: 100%;
+  float: left;
+  background: white;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__inner {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: stretch;
+  }
+
+  &__icon-wrapper {
+
+    padding: 20px 0;
+  }
+
+
+  &__title{
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    float: left;
+    line-height: 220%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #303030;
+
+    @mixin clearfix;
+
+    ._icon {
+      margin-right: 10px;
+      display: inline-block;
+      float: left;
+    }
+
+  }
+
+
+
+  &__desc {
+    display: block;
+    font-size: 14px;
+
+  }
+
+  &__learn-more {
+    display: block;
+    font-size: 12px;
+    color: #007DB3;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+    font-weight: 700;
+
+  }
+}

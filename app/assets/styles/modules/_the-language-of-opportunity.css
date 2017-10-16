@@ -1,0 +1,46 @@
+.the-language-of-opportunity {
+  width: 100%;
+
+
+  &__content {
+    width: 100%;
+
+    padding-top: 40px;
+    @mixin clearfix;
+
+  }
+
+}
+
+.img-box {
+
+  position: relative;
+  img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &__title {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+    display: inline-block;
+    padding: 0.4em 0.8em 0 0;
+    font-size: 24px;
+    font-weight: 900;
+    color: #303030;
+    text-transform: uppercase;
+
+  }
+
+
+  &__desc {
+    padding-top: 20px;
+    color: #606060;
+    font-size: 14px;
+    padding-bottom: 20px;
+
+  }
+}
